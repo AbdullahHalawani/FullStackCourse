@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head><Style>
+* {
+border: 40px solid white;
+width: auto;
+display: flex;
+flex-direction: column;
+}
+head{
+background-color: #f4a98a;
+height: 18.75vh;
+}
+nav{
+background-color: #f4a98a;
+height: 6.25vh;
+}
+article {
+display: flex;
+background-color: #45b5f9;
+height: 50vh;
+}
+aside {
+display: flex;
+background-color: #e2e4e6;
+height: 50vh;
+align-self: right;
+}
+footer {
+display: flex;
+backgound-color: #f4a98a;
+height: 18.75vh;
+}
+.Article-Section {
+height: 10px;
+width: 50px;
+backgound-color: white;
+flex-direction: column;
+}
+.Nav-Section{
+height: 10px;
+width: 50px;
+backgound-color: white;
+flex-direction: row;
+}
+</style>
+</head>
+<body>
+</body>
+<nav> nav
+<section class ="Nav-Section"></section>
+<section class ="Nav-Section"></section>
+<section class ="Nav-Section"></section>
+<section class ="Nav-Section"></section>
+</nav>
+<div>
+<article> article
+<section class ="Article-Section"></section>
+<section class ="Article-Section"></section>
+<section class ="Article-Section"></section>
+</article>
+<aside> aside
+<section class ="Aside-Section"></section>
+<section class ="Aside-Section"></section>
+</aside>
+</div>
+<footer> footer
+</footer>
+</html>
