@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="Script.js"></script>
+</head>
+<body>
+    <button type="button" data-theme-toggle  aria-label="Change to light theme">Change to light theme</button>
+<h1>my playground and other things in between</h1>
+
+<p>Click the "Try it" button to set the background-color property of the DIV element to "lightblue":</p>
+
+<button onclick="myFunction()">Try it</button>
+<button onclick="meFunction()">Fun fact about me</button>
+<div id ="about me">
+<h1>Abdullah Halawani</h1>
+	<img src="470px-The_Scream.jpg" alt="Abdullah">
+	<h2>About</h2>
+	<p>I am a newbie in programming, and new to many things in this field, there will be always a first time,</p> 
+	</p>and I am happy that <abbr title ="The Jerusalem High-Tech Foundry">JHF</abbr> granted me this opportunity to try it out.</p>
+	<p>There is nothing much to add about me, but you can contact me anytime:</p>
+</div>
+<div id="myDIV">
+  <h1 id ="myText">Hello</h1>
+</div>
+
+<div class="mail">
+
+    <h2>Input an email address</h2>
+
+    <form name="form1" action="#">
+
+      <ul>
+
+        <li><input type="text" name="text1" /></li>
+
+        <li>&nbsp;</li>
+
+        <li class="validate">
+
+          <input
+
+            type="submit"
+
+            name="validate"
+
+            value="Validate"
+
+            onclick="ValidateEmail(document.form1.text1)"
+
+          />
+
+        </li>
+
+        <li>&nbsp;</li>
+
+      </ul>
+
+    </form>
+
+  </div>
+</div>
+<div class="contact-form-container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" 
+                   name="name" 
+                   placeholder="Your Name" required>
+            <span class="error-message" id="nameError"></span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" 
+                   name="email" 
+                   placeholder="Your Email" required>
+            <span class="error-message" id="emailError"></span>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" 
+                   name="phone" 
+                   placeholder="Your Phone Number" required>
+            <span class="error-message" id="phoneError"></span>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" 
+                      name="message" 
+                      placeholder="Your Message" 
+                      rows="5" required></textarea>
+            <span class="error-message" 
+                  id="messageError"></span>
+        </div>
+        <button type="submit" 
+                class="submit-button">
+          Send Message
+        </button>
+    </form>
+</div>
+
+</body>
+</html>
